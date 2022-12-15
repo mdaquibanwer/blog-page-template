@@ -19,6 +19,7 @@
 
 section{
     padding: 3rem 10%;
+    background: var(--bg-color);
 }
 
 /* ---- UTILITY CLASSES ----- */
@@ -209,7 +210,6 @@ footer p{
 
 #contact-us{
     padding-top: 9rem;
-    background: var(--bg-color);
 }
 #contact-us h2{
     font-size: 3rem;
@@ -248,4 +248,14 @@ footer p{
     object-fit: cover;
     border: 2rem solid #ccc;
     border-radius: 1rem;
+}
+
+/* ------------------ contact page styling ends ----------------- */
+
+/* ------------------ search page styling ----------------- */
+
+.s-articles h3{
+    font-size: 5rem;
+    margin: 8rem auto 3rem auto;
+    text-align: left;
 }
